@@ -1,0 +1,182 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 22  of event 'cpu-clock:pppH'
+# Event count (approx.): 22022022
+#
+# Children      Self       Samples  Command    Shared Object       Symbol                                       
+# ........  ........  ............  .........  ..................  .............................................
+#
+    95.45%     0.00%             0  evdefer/3  [unknown]           [k] 0000000000000000
+13.64% 0;__access
+9.09% 0;__access;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_enter_from_user_mode
+9.09% 0;__access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;security_inode_permission
+9.09% 0;__access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;try_to_unlazy;__legitimize_path;__legitimize_mnt
+4.55% 0;__pthread_rwlock_unlock
+4.55% 0;__access;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_access
+4.55% 0;__access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;user_path_at_empty
+4.55% 0;__access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;down_read
+4.55% 0;__access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;step_into;dput;lockref_put_return
+4.55% 0;__access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;step_into;dput;dentry_kill;__dentry_kill;__call_rcu
+4.55% 0;__access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;__lookup_slow;__raw_callee_save___pv_queued_spin_unlock
+4.55% 0;__access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;__lookup_slow
+4.55% 0;__access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;lookup_fast;__d_lookup;__raw_callee_save___pv_queued_spin_unlock
+4.55% 0;__access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;path_init;nd_jump_root;set_root
+4.55% 0;__access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;put_cred_rcu;security_cred_free;kfree
+4.55% 0;_IO_vsnprintf
+    86.36%    13.64%             3  evdefer/3  libc-2.26.so        [.] __access
+13.64% 0;__access
+9.09% __access;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_enter_from_user_mode
+9.09% __access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;security_inode_permission
+9.09% __access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;try_to_unlazy;__legitimize_path;__legitimize_mnt
+4.55% __access;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_access
+4.55% __access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;user_path_at_empty
+4.55% __access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;down_read
+4.55% __access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;step_into;dput;lockref_put_return
+4.55% __access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;step_into;dput;dentry_kill;__dentry_kill;__call_rcu
+4.55% __access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;__lookup_slow;__raw_callee_save___pv_queued_spin_unlock
+4.55% __access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;__lookup_slow
+4.55% __access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;lookup_fast;__d_lookup;__raw_callee_save___pv_queued_spin_unlock
+4.55% __access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;path_init;nd_jump_root;set_root
+4.55% __access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;put_cred_rcu;security_cred_free;kfree
+    72.73%     0.00%             0  evdefer/3  [kernel.kallsyms]   [k] entry_SYSCALL_64_after_hwframe
+9.09% entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_enter_from_user_mode
+9.09% entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;security_inode_permission
+9.09% entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;try_to_unlazy;__legitimize_path;__legitimize_mnt
+4.55% entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_access
+4.55% entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;user_path_at_empty
+4.55% entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;down_read
+4.55% entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;step_into;dput;lockref_put_return
+4.55% entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;step_into;dput;dentry_kill;__dentry_kill;__call_rcu
+4.55% entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;__lookup_slow;__raw_callee_save___pv_queued_spin_unlock
+4.55% entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;__lookup_slow
+4.55% entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;lookup_fast;__d_lookup;__raw_callee_save___pv_queued_spin_unlock
+4.55% entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;path_init;nd_jump_root;set_root
+4.55% entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;put_cred_rcu;security_cred_free;kfree
+    72.73%     0.00%             0  evdefer/3  [kernel.kallsyms]   [k] do_syscall_64
+9.09% do_syscall_64;syscall_enter_from_user_mode
+9.09% do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;security_inode_permission
+9.09% do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;try_to_unlazy;__legitimize_path;__legitimize_mnt
+4.55% do_syscall_64;__x64_sys_access
+4.55% do_syscall_64;do_faccessat;user_path_at_empty
+4.55% do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;down_read
+4.55% do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;step_into;dput;lockref_put_return
+4.55% do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;step_into;dput;dentry_kill;__dentry_kill;__call_rcu
+4.55% do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;__lookup_slow;__raw_callee_save___pv_queued_spin_unlock
+4.55% do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;__lookup_slow
+4.55% do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;lookup_fast;__d_lookup;__raw_callee_save___pv_queued_spin_unlock
+4.55% do_syscall_64;do_faccessat;filename_lookup;path_lookupat;path_init;nd_jump_root;set_root
+4.55% do_syscall_64;do_faccessat;put_cred_rcu;security_cred_free;kfree
+    59.09%     0.00%             0  evdefer/3  [kernel.kallsyms]   [k] do_faccessat
+9.09% do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;security_inode_permission
+9.09% do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;try_to_unlazy;__legitimize_path;__legitimize_mnt
+4.55% do_faccessat;user_path_at_empty
+4.55% do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;down_read
+4.55% do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;step_into;dput;lockref_put_return
+4.55% do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;step_into;dput;dentry_kill;__dentry_kill;__call_rcu
+4.55% do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;__lookup_slow;__raw_callee_save___pv_queued_spin_unlock
+4.55% do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;__lookup_slow
+4.55% do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;lookup_fast;__d_lookup;__raw_callee_save___pv_queued_spin_unlock
+4.55% do_faccessat;filename_lookup;path_lookupat;path_init;nd_jump_root;set_root
+4.55% do_faccessat;put_cred_rcu;security_cred_free;kfree
+    50.00%     0.00%             0  evdefer/3  [kernel.kallsyms]   [k] filename_lookup
+9.09% filename_lookup;path_lookupat;link_path_walk.part.0;security_inode_permission
+9.09% filename_lookup;path_lookupat;link_path_walk.part.0;try_to_unlazy;__legitimize_path;__legitimize_mnt
+4.55% filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;down_read
+4.55% filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;step_into;dput;lockref_put_return
+4.55% filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;step_into;dput;dentry_kill;__dentry_kill;__call_rcu
+4.55% filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;__lookup_slow;__raw_callee_save___pv_queued_spin_unlock
+4.55% filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;__lookup_slow
+4.55% filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;lookup_fast;__d_lookup;__raw_callee_save___pv_queued_spin_unlock
+4.55% filename_lookup;path_lookupat;path_init;nd_jump_root;set_root
+    50.00%     0.00%             0  evdefer/3  [kernel.kallsyms]   [k] path_lookupat
+9.09% path_lookupat;link_path_walk.part.0;security_inode_permission
+9.09% path_lookupat;link_path_walk.part.0;try_to_unlazy;__legitimize_path;__legitimize_mnt
+4.55% path_lookupat;link_path_walk.part.0;walk_component;down_read
+4.55% path_lookupat;link_path_walk.part.0;walk_component;step_into;dput;lockref_put_return
+4.55% path_lookupat;link_path_walk.part.0;walk_component;step_into;dput;dentry_kill;__dentry_kill;__call_rcu
+4.55% path_lookupat;link_path_walk.part.0;walk_component;__lookup_slow;__raw_callee_save___pv_queued_spin_unlock
+4.55% path_lookupat;link_path_walk.part.0;walk_component;__lookup_slow
+4.55% path_lookupat;link_path_walk.part.0;walk_component;lookup_fast;__d_lookup;__raw_callee_save___pv_queued_spin_unlock
+4.55% path_lookupat;path_init;nd_jump_root;set_root
+    45.45%     0.00%             0  evdefer/3  [kernel.kallsyms]   [k] link_path_walk.part.0
+9.09% link_path_walk.part.0;security_inode_permission
+9.09% link_path_walk.part.0;try_to_unlazy;__legitimize_path;__legitimize_mnt
+4.55% link_path_walk.part.0;walk_component;down_read
+4.55% link_path_walk.part.0;walk_component;step_into;dput;lockref_put_return
+4.55% link_path_walk.part.0;walk_component;step_into;dput;dentry_kill;__dentry_kill;__call_rcu
+4.55% link_path_walk.part.0;walk_component;__lookup_slow;__raw_callee_save___pv_queued_spin_unlock
+4.55% link_path_walk.part.0;walk_component;__lookup_slow
+4.55% link_path_walk.part.0;walk_component;lookup_fast;__d_lookup;__raw_callee_save___pv_queued_spin_unlock
+    27.27%     0.00%             0  evdefer/3  [kernel.kallsyms]   [k] walk_component
+4.55% walk_component;down_read
+4.55% walk_component;step_into;dput;lockref_put_return
+4.55% walk_component;step_into;dput;dentry_kill;__dentry_kill;__call_rcu
+4.55% walk_component;__lookup_slow;__raw_callee_save___pv_queued_spin_unlock
+4.55% walk_component;__lookup_slow
+4.55% walk_component;lookup_fast;__d_lookup;__raw_callee_save___pv_queued_spin_unlock
+     9.09%     9.09%             2  evdefer/3  [kernel.kallsyms]   [k] __raw_callee_save___pv_queued_spin_unlock
+4.55% 0;__access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;__lookup_slow;__raw_callee_save___pv_queued_spin_unlock
+4.55% 0;__access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;lookup_fast;__d_lookup;__raw_callee_save___pv_queued_spin_unlock
+     9.09%     9.09%             2  evdefer/3  [kernel.kallsyms]   [k] __legitimize_mnt
+9.09% 0;__access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;try_to_unlazy;__legitimize_path;__legitimize_mnt
+     9.09%     4.55%             1  evdefer/3  [kernel.kallsyms]   [k] __lookup_slow
+4.55% __lookup_slow;__raw_callee_save___pv_queued_spin_unlock
+4.55% 0;__access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;__lookup_slow
+     9.09%     9.09%             2  evdefer/3  [kernel.kallsyms]   [k] security_inode_permission
+9.09% 0;__access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;security_inode_permission
+     9.09%     9.09%             2  evdefer/3  [kernel.kallsyms]   [k] syscall_enter_from_user_mode
+9.09% 0;__access;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_enter_from_user_mode
+     9.09%     0.00%             0  evdefer/3  [kernel.kallsyms]   [k] step_into
+4.55% step_into;dput;lockref_put_return
+4.55% step_into;dput;dentry_kill;__dentry_kill;__call_rcu
+     9.09%     0.00%             0  evdefer/3  [kernel.kallsyms]   [k] dput
+4.55% dput;lockref_put_return
+4.55% dput;dentry_kill;__dentry_kill;__call_rcu
+     9.09%     0.00%             0  evdefer/3  [kernel.kallsyms]   [k] try_to_unlazy
+9.09% try_to_unlazy;__legitimize_path;__legitimize_mnt
+     9.09%     0.00%             0  evdefer/3  [kernel.kallsyms]   [k] __legitimize_path
+9.09% __legitimize_path;__legitimize_mnt
+     4.55%     4.55%             1  evdefer/3  [kernel.kallsyms]   [k] __call_rcu
+4.55% 0;__access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;step_into;dput;dentry_kill;__dentry_kill;__call_rcu
+     4.55%     4.55%             1  evdefer/3  [kernel.kallsyms]   [k] lockref_put_return
+4.55% 0;__access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;step_into;dput;lockref_put_return
+     4.55%     4.55%             1  evdefer/3  [kernel.kallsyms]   [k] down_read
+4.55% 0;__access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;link_path_walk.part.0;walk_component;down_read
+     4.55%     4.55%             1  evdefer/3  [kernel.kallsyms]   [k] set_root
+4.55% 0;__access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;filename_lookup;path_lookupat;path_init;nd_jump_root;set_root
+     4.55%     4.55%             1  evdefer/3  [kernel.kallsyms]   [k] kfree
+4.55% 0;__access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;put_cred_rcu;security_cred_free;kfree
+     4.55%     4.55%             1  evdefer/3  [kernel.kallsyms]   [k] user_path_at_empty
+4.55% 0;__access;entry_SYSCALL_64_after_hwframe;do_syscall_64;do_faccessat;user_path_at_empty
+     4.55%     4.55%             1  evdefer/3  [kernel.kallsyms]   [k] __x64_sys_access
+4.55% 0;__access;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_access
+     4.55%     0.00%             0  evdefer/3  [kernel.kallsyms]   [k] dentry_kill
+4.55% dentry_kill;__dentry_kill;__call_rcu
+     4.55%     0.00%             0  evdefer/3  [kernel.kallsyms]   [k] lookup_fast
+4.55% lookup_fast;__d_lookup;__raw_callee_save___pv_queued_spin_unlock
+     4.55%     0.00%             0  evdefer/3  [kernel.kallsyms]   [k] path_init
+4.55% path_init;nd_jump_root;set_root
+     4.55%     0.00%             0  evdefer/3  [kernel.kallsyms]   [k] put_cred_rcu
+4.55% put_cred_rcu;security_cred_free;kfree
+     4.55%     4.55%             1  evdefer/3  libc-2.26.so        [.] _IO_vsnprintf
+4.55% 0;_IO_vsnprintf
+     4.55%     4.55%             1  evdefer/3  libpthread-2.26.so  [.] __pthread_rwlock_unlock
+4.55% 0;__pthread_rwlock_unlock
+     4.55%     0.00%             0  evdefer/3  [kernel.kallsyms]   [k] __d_lookup
+4.55% __d_lookup;__raw_callee_save___pv_queued_spin_unlock
+     4.55%     0.00%             0  evdefer/3  [kernel.kallsyms]   [k] __dentry_kill
+4.55% __dentry_kill;__call_rcu
+     4.55%     0.00%             0  evdefer/3  [kernel.kallsyms]   [k] nd_jump_root
+4.55% nd_jump_root;set_root
+     4.55%     0.00%             0  evdefer/3  [kernel.kallsyms]   [k] security_cred_free
+4.55% security_cred_free;kfree
+     4.55%     4.55%             1  evdefer/3  libc-2.26.so        [.] _IO_default_xsputn
+4.55% _IO_default_xsputn
+
+
+#
+# (Tip: Sample related events with: perf record -e '{cycles,instructions}:S')
+#

@@ -1,0 +1,47 @@
+total 35696
+drwxr-x--- 4 root root     4096 Apr 13 11:18 .
+drwxr-xr-x 6 root root       66 Apr 13 11:16 ..
+-rw-r----- 1 root root       48 Apr 13 11:18 C-00000016-00000000-00000001.sys
+-rw-r----- 1 root root    29140 Apr 13 11:18 C-00000018-00000000-00000032.sys
+-rw-r----- 1 root root     2628 Apr 13 11:18 C-00000019-00000000-00000008.sys
+-rw-r----- 1 root root    12328 Apr 13 11:18 C-00000020-00000000-00000027.sys
+-rw-r----- 1 root root      342 Apr 13 11:18 C-00000021-00000000-00000009.sys
+-rw-r----- 1 root root     2188 Apr 13 11:18 C-00000031-00000000-00000007.sys
+-rw-r----- 1 root root       96 Apr 13 11:17 C-00000034-00000000-00000001.sys
+-rw-r----- 1 root root   113842 Apr 13 11:18 C-00000059-00000000-00000003.sys
+-rw-r----- 1 root root       96 Apr 13 11:18 C-00000084-00000000-00000001.sys
+-rw-r----- 1 root root     4128 Apr 13 11:17 C-00000089-00000000-00000114.sys
+-rw-r----- 1 root root    96952 Apr 13 11:18 C-00000100-00000000-00000191.sys
+-rw-r----- 1 root root     2728 Apr 13 11:18 C-00000103-00000000-00000050.sys
+-rw-r----- 1 root root  5005100 Apr 13 11:18 C-00000211-00000000-00000530.sys
+-rw-r----- 1 root root   686672 Apr 13 11:18 C-00000235-00000000-00000102.sys
+-rw-r----- 1 root root   370940 Apr 13 11:18 C-00000244-00000000-00000108.sys
+-rw-r----- 1 root root  1077336 Apr 13 11:18 C-00000254-00000000-00000089.sys
+-rw-r----- 1 root root    11588 Apr 13 11:18 C-00000256-00000000-00000009.sys
+-rw-r----- 1 root root      244 Apr 13 11:18 C-00000257-00000000-00000002.sys
+-rw-r----- 1 root root   107556 Apr 13 11:18 C-00000258-00000000-00000045.sys
+-rw-r----- 1 root root    77792 Apr 13 11:18 C-00000513-00000000-00000049.sys
+-rw-r----- 1 root root     4915 Apr 13 11:17 C-00000700-00000000-00000049.sys
+drwxr-x--- 2 root root        6 Apr 13 11:18 Downloads
+lrwxrwxrwx 1 root root       24 Mar 16 19:03 KernelModuleArchive -> KernelModuleArchive13402
+-rw-r----- 1 root root 18839668 Mar 16 19:03 KernelModuleArchive13402
+-rw-r----- 1 root root   989860 Apr 13 11:17 KernelModuleArchiveExt12803
+-rw-r----- 1 root root      131 Mar 16 19:03 README
+-rw-r----- 1 root root     1223 Apr 13 11:40 Registry.bin
+-rw-r----- 1 root root     2659 Apr 13 11:40 Registry_km.bin
+lrwxrwxrwx 1 root root       21 Mar 16 19:03 falcon-fx -> falcon-fxpredict13402
+lrwxrwxrwx 1 root root       21 Mar 16 19:03 falcon-fxpredict -> falcon-fxpredict13402
+-rwxr-x--- 1 root root    23328 Mar 16 19:03 falcon-fxpredict13402
+lrwxrwxrwx 1 root root       24 Mar 16 19:03 falcon-kernel-check -> falcon-kernel-check13402
+-rwxr-x--- 1 root root   151001 Mar 16 19:03 falcon-kernel-check13402
+lrwxrwxrwx 1 root root       21 Mar 16 19:03 falcon-predict -> falcon-fxpredict13402
+lrwxrwxrwx 1 root root       18 Mar 16 19:03 falcon-sensor -> falcon-sensor13402
+-rwxr-x--- 1 root root  1675408 Mar 16 19:03 falcon-sensor13402
+lrwxrwxrwx 1 root root       14 Mar 16 19:03 falconctl -> falconctl13402
+-rwxr-x--- 1 root root    85120 Mar 16 19:03 falconctl13402
+lrwxrwxrwx 1 root root       12 Mar 16 19:03 falcond -> falcond13402
+-rwxr-x--- 1 root root    11032 Mar 16 19:03 falcond13402
+-rw-r----- 1 root root     8192 Apr 13 11:40 falconstore
+lrwxrwxrwx 1 root root       23 Mar 16 19:03 libfalconfxp.so.1 -> libfalconfxp.so.1-13402
+-rwxr-x--- 1 root root  7081904 Mar 16 19:03 libfalconfxp.so.1-13402
+drwx------ 2 root root        6 Apr 13 11:17 sandbox

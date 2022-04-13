@@ -1,0 +1,10 @@
+        NS TYPE   NPROCS   PID USER   COMMAND
+4026531835 cgroup    214     1 root   /usr/lib/systemd/systemd --switched-root --system --deserialize 21
+4026531836 pid       215     1 root   /usr/lib/systemd/systemd --switched-root --system --deserialize 21
+4026531837 user      215     1 root   /usr/lib/systemd/systemd --switched-root --system --deserialize 21
+4026531838 uts       214     1 root   /usr/lib/systemd/systemd --switched-root --system --deserialize 21
+4026531839 ipc       214     1 root   /usr/lib/systemd/systemd --switched-root --system --deserialize 21
+4026531840 mnt       212     1 root   /usr/lib/systemd/systemd --switched-root --system --deserialize 21
+4026531860 mnt         1    23 root   kdevtmpfs
+4026532088 net       214     1 root   /usr/lib/systemd/systemd --switched-root --system --deserialize 21
+4026532261 mnt         1  2739 chrony /usr/sbin/chronyd

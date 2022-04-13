@@ -1,0 +1,8 @@
+COMMAND           PID  TYPE SIZE MODE  M START END PATH
+lvmetad          1843 POSIX   5B WRITE 0     0   0 /run/lvmetad.pid
+master           3168 FLOCK  33B WRITE 0     0   0 /var/spool/postfix/pid/master.pid
+master           3168 FLOCK  33B WRITE 0     0   0 /var/lib/postfix/master.lock
+(unknown)        2716 FLOCK      WRITE 0     0   0 /run...
+crond            3276 FLOCK   5B WRITE 0     0   0 /run/crond.pid
+atd              3273 POSIX   5B WRITE 0     0   0 /run/atd.pid
+falcond          6896 POSIX   5B WRITE 0     0   0 /run/falcond.pid
